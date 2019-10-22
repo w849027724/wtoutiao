@@ -148,26 +148,6 @@
             <!-- 内部组件-->
             <dependency>
                 <groupId>com.wtoutiao</groupId>
-                <artifactId>wtoutiao-admin</artifactId>
-                <version>0.0.1-SNAPSHOT</version>
-            </dependency>
-            <dependency>
-                <groupId>com.wtoutiao</groupId>
-                <artifactId>wtoutiao-gateway</artifactId>
-                <version>0.0.1-SNAPSHOT</version>
-            </dependency>
-            <dependency>
-                <groupId>com.wtoutiao</groupId>
-                <artifactId>wtoutiao-auth</artifactId>
-                <version>0.0.1-SNAPSHOT</version>
-            </dependency>
-            <dependency>
-                <groupId>com.wtoutiao</groupId>
-                <artifactId>wtoutiao-server</artifactId>
-                <version>0.0.1-SNAPSHOT</version>
-            </dependency>
-            <dependency>
-                <groupId>com.wtoutiao</groupId>
                 <artifactId>wtoutiao-common-swagger</artifactId>
                 <version>0.0.1-SNAPSHOT</version>
             </dependency>
@@ -178,13 +158,18 @@
             </dependency>
             <dependency>
                 <groupId>com.wtoutiao</groupId>
-                <artifactId>wtoutiao-spring-admin</artifactId>
+                <artifactId>wtoutiao-common-security</artifactId>
                 <version>0.0.1-SNAPSHOT</version>
             </dependency>
             <!-- api-->
             <dependency>
                 <groupId>com.wtoutiao</groupId>
                 <artifactId>wtoutiao-user-api</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>com.wtoutiao</groupId>
+                <artifactId>wtoutiao-system-api</artifactId>
                 <version>0.0.1-SNAPSHOT</version>
             </dependency>
         </dependencies>

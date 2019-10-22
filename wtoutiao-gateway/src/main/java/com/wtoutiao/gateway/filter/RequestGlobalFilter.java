@@ -53,7 +53,6 @@ public class RequestGlobalFilter implements GlobalFilter, Ordered {
         ServerHttpRequest newRequest = request.mutate()
                 .path(rawPath)
                 .build();
-        log.error("=========" + newPath);
         exchange.getAttributes().put(GATEWAY_REQUEST_URL_ATTR, newRequest.getURI());
         Mono<Void> filter = chain.filter(exchange.mutate().request(newRequest.mutate().build()).build());
         return filter;

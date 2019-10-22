@@ -17,6 +17,7 @@
     <modules>
         <module>wtoutiao-common-swagger</module>
         <module>wtoutiao-common-core</module>
+        <module>wtoutiao-common-security</module>
     </modules>
 
 

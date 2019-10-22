@@ -29,6 +29,13 @@ spring:
           filters:
             - SwaggerHeaderFilter
             - StripPrefix=1
+        - id: wtoutiao-auth
+          uri: lb://wtoutiao-auth
+          predicates:
+          - Path=/auth/**
+          filters:
+            - SwaggerHeaderFilter
+            - StripPrefix=1
 
 swagger:
   enabled: true

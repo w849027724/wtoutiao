@@ -16,6 +16,8 @@
     <modules>
         <module>wtoutiao-user</module>
         <module>wtoutiao-user-api</module>
+        <module>wtoutiao-system</module>
+        <module>wtoutiao-system-api</module>
     </modules>
 
 </project>
