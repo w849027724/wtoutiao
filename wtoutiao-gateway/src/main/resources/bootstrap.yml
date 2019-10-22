@@ -1,0 +1,41 @@
+server:
+  port: 33001
+
+
+spring:
+  application:
+    name: @artifactId@
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:30000
+      config:
+        server-addr: 127.0.0.1:30000
+        file-extension: yml
+        shared-dataids: application.yml
+    gateway:
+        routes:
+        - id: wtoutiao-user
+          uri: lb://wtoutiao-user
+          predicates:
+          - Path=/user/**
+          filters:
+            - SwaggerHeaderFilter
+            - StripPrefix=1
+        - id: wtoutiao-admin
+          uri: lb://wtoutiao-admin
+          predicates:
+          - Path=/admin/**
+          filters:
+            - SwaggerHeaderFilter
+            - StripPrefix=1
+
+swagger:
+  enabled: true
+  title: Elibrary Swagger API
+  license: Powered By XXX
+  licenseUrl: https://www.elibrary.org/
+  terms-of-service-url: https://www.elibrary.org/
+  contact:
+    email: contact@elibrary.org
+    url: https://www.elibrary.org/about.html

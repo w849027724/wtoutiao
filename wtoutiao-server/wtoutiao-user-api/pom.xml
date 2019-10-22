@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.wtoutiao</groupId>
+        <artifactId>wtoutiao-server</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>wtoutiao-user-api</artifactId>
+    <packaging>jar</packaging>
+    <name>wtoutiao-user-api</name>
+    <description>用户微服务api</description>
+
+    <dependencies>
+
+    </dependencies>
+
+
+</project>
