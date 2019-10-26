@@ -7,12 +7,12 @@
         <artifactId>wtoutiao-server</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-
-    <artifactId>wtoutiao-system</artifactId>
+    <artifactId>wtoutiao-news</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
-    <name>wtoutiao-system</name>
-    <description>Demo project for Spring Boot</description>
+    <name>wtoutiao-news</name>
+    <description>新闻</description>
+
 
     <dependencies>
         <!--注册中心客户端-->

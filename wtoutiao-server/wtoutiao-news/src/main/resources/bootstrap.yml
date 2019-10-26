@@ -1,6 +1,5 @@
-
 server:
-  port: 34002
+  port: 34003
 
 
 spring:
